@@ -1,0 +1,125 @@
+2022-06-15 10:20:42.840  INFO 8336 --- [main] com.carrier.crud.CrudApplication         : Starting CrudApplication on A0013000455 with PID 8336 (C:\Users\fgueva01\Documents\carriermovilnetBackend-v2\target\classes started by fgueva01 in C:\Users\fgueva01\Documents\carriermovilnetBackend-v2)
+2022-06-15 10:20:42.845  INFO 8336 --- [main] com.carrier.crud.CrudApplication         : No active profile set, falling back to default profiles: default
+2022-06-15 10:20:44.553  INFO 8336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 10:20:44.693  INFO 8336 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 12 JPA repository interfaces.
+2022-06-15 10:20:45.260  INFO 8336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:20:45.288  INFO 8336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:20:45.288  INFO 8336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:20:45.293  INFO 8336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@63998bf4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:20:45.293  INFO 8336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:20:45.298  INFO 8336 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:20:45.835  INFO 8336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-15 10:20:45.850  INFO 8336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-15 10:20:45.850  INFO 8336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-15 10:20:45.948  INFO 8336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-15 10:20:45.948  INFO 8336 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2993 ms
+2022-06-15 10:20:46.304  INFO 8336 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 10:20:46.467  INFO 8336 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-06-15 10:20:46.676  INFO 8336 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-15 10:20:46.917  INFO 8336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 10:20:47.432  INFO 8336 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 10:20:47.453  INFO 8336 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-15 10:20:48.738  INFO 8336 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 10:20:48.749  INFO 8336 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 10:20:50.100  INFO 8336 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@785d6a98, org.springframework.security.web.context.SecurityContextPersistenceFilter@2548fc01, org.springframework.security.web.header.HeaderWriterFilter@18b3db6e, org.springframework.web.filter.CorsFilter@614d7fbf, org.springframework.security.web.authentication.logout.LogoutFilter@5b64f771, com.carrier.crud.security.jwt.JwtTokenFilter@58ebee9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cd71ee2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75add13c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c06b1bc, org.springframework.security.web.session.SessionManagementFilter@2c3679e5, org.springframework.security.web.access.ExceptionTranslationFilter@24e1e90a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b56b517]
+2022-06-15 10:20:50.171  INFO 8336 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-15 10:20:50.371  INFO 8336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-15 10:20:50.376  INFO 8336 --- [main] com.carrier.crud.CrudApplication         : Started CrudApplication in 8.252 seconds (JVM running for 8.775)
+2022-06-15 10:26:00.215  INFO 11412 --- [main] com.carrier.crud.CrudApplication         : Starting CrudApplication on A0013000455 with PID 11412 (C:\Users\fgueva01\Documents\carriermovilnetBackend-v2\target\classes started by fgueva01 in C:\Users\fgueva01\Documents\carriermovilnetBackend-v2)
+2022-06-15 10:26:00.220  INFO 11412 --- [main] com.carrier.crud.CrudApplication         : No active profile set, falling back to default profiles: default
+2022-06-15 10:26:00.975  INFO 11412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-15 10:26:01.117  INFO 11412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130ms. Found 12 JPA repository interfaces.
+2022-06-15 10:26:01.505  INFO 11412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:26:01.535  INFO 11412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:26:01.540  INFO 11412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:26:01.542  INFO 11412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@794b435f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:26:01.545  INFO 11412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:26:01.545  INFO 11412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-15 10:26:02.027  INFO 11412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-15 10:26:02.042  INFO 11412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-15 10:26:02.042  INFO 11412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-15 10:26:02.169  INFO 11412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-15 10:26:02.169  INFO 11412 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1904 ms
+2022-06-15 10:26:02.419  INFO 11412 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-15 10:26:02.562  INFO 11412 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-06-15 10:26:02.713  INFO 11412 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-15 10:26:02.825  INFO 11412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-15 10:26:03.305  INFO 11412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-15 10:26:03.325  INFO 11412 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-15 10:26:04.527  INFO 11412 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-15 10:26:04.532  INFO 11412 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-15 10:26:05.767  INFO 11412 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d8dbf10, org.springframework.security.web.context.SecurityContextPersistenceFilter@2299f6d7, org.springframework.security.web.header.HeaderWriterFilter@199806aa, org.springframework.web.filter.CorsFilter@e171f93, org.springframework.security.web.authentication.logout.LogoutFilter@29532e91, com.carrier.crud.security.jwt.JwtTokenFilter@3bcc8f13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c9151c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4331be30, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ad3969, org.springframework.security.web.session.SessionManagementFilter@611a2d82, org.springframework.security.web.access.ExceptionTranslationFilter@28b2e4d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e50eb3f]
+2022-06-15 10:26:05.820  INFO 11412 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-15 10:26:05.975  INFO 11412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-15 10:26:05.975  INFO 11412 --- [main] com.carrier.crud.CrudApplication         : Started CrudApplication in 6.195 seconds (JVM running for 6.623)
+2022-06-15 10:26:44.324  INFO 11412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-15 10:26:44.325  INFO 11412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-15 10:26:44.339  INFO 11412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2022-06-15 10:26:44.416  INFO 11412 --- [http-nio-8080-exec-1] c.c.crud.controller.FacturaController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 10:26:44.416
+2022-06-15 10:28:44.093  INFO 11412 --- [http-nio-8080-exec-5] c.c.crud.controller.FacturaController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 10:28:44.092
+2022-06-15 11:12:20.533  WARN 11412 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "post"]
+2022-06-15 11:36:37.110  INFO 11412 --- [http-nio-8080-exec-10] c.c.crud.controller.FacturaController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 11:36:37.109
+2022-06-15 12:36:11.739  INFO 11412 --- [http-nio-8080-exec-5] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:36:11.739
+2022-06-15 12:36:11.827  INFO 11412 --- [http-nio-8080-exec-6] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:36:11.827
+2022-06-15 12:36:18.368  INFO 11412 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:36:18.368
+2022-06-15 12:36:34.246 ERROR 11412 --- [http-nio-8080-exec-7] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-15 12:36:34.319 ERROR 11412 --- [http-nio-8080-exec-7] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-15 12:36:34.356  INFO 11412 --- [http-nio-8080-exec-8] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:36:34.356
+2022-06-15 12:37:32.345  INFO 11412 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:37:32.345
+2022-06-15 12:37:33.523  INFO 11412 --- [http-nio-8080-exec-10] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:37:33.523
+2022-06-15 12:37:33.959  INFO 11412 --- [http-nio-8080-exec-7] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:37:33.959
+2022-06-15 12:37:59.926  INFO 11412 --- [http-nio-8080-exec-8] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:37:59.926
+2022-06-15 12:38:00.003  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:38:00.003
+2022-06-15 12:38:15.034  INFO 11412 --- [http-nio-8080-exec-1] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:38:15.034
+2022-06-15 12:38:15.107  INFO 11412 --- [http-nio-8080-exec-2] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:38:15.107
+2022-06-15 12:38:33.068  INFO 11412 --- [http-nio-8080-exec-6] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:38:33.068
+2022-06-15 12:38:40.201  INFO 11412 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Save Servicio de Debito Error en el Nombre de Usuario - 12:38:40.201
+2022-06-15 12:38:40.298  INFO 11412 --- [http-nio-8080-exec-10] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:38:40.298
+2022-06-15 12:39:03.420  INFO 11412 --- [http-nio-8080-exec-7] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:39:03.420
+2022-06-15 12:39:03.504  INFO 11412 --- [http-nio-8080-exec-8] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:39:03.504
+2022-06-15 12:39:05.963  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:39:05.963
+2022-06-15 12:39:11.119  INFO 11412 --- [http-nio-8080-exec-1] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:39:11.119
+2022-06-15 12:39:43.945  INFO 11412 --- [http-nio-8080-exec-2] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 12:39:43.945
+2022-06-15 12:40:07.930  INFO 11412 --- [http-nio-8080-exec-5] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:40:07.930 - Fran
+2022-06-15 12:40:33.220  INFO 11412 --- [http-nio-8080-exec-6] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:40:33.219 - Fran
+2022-06-15 12:41:14.665  INFO 11412 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:14.665 - Fran
+2022-06-15 12:41:16.221  INFO 11412 --- [http-nio-8080-exec-10] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:16.221 - Fran
+2022-06-15 12:41:27.144  INFO 11412 --- [http-nio-8080-exec-7] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:27.144 - Fran
+2022-06-15 12:41:28.871  INFO 11412 --- [http-nio-8080-exec-8] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:28.871 - Fran
+2022-06-15 12:41:30.859  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:30.859 - Fran
+2022-06-15 12:41:32.413  INFO 11412 --- [http-nio-8080-exec-1] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:32.413 - Fran
+2022-06-15 12:41:33.311  INFO 11412 --- [http-nio-8080-exec-2] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:33.311 - Fran
+2022-06-15 12:41:37.059  INFO 11412 --- [http-nio-8080-exec-4] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:37.059 - Fran
+2022-06-15 12:41:38.430  INFO 11412 --- [http-nio-8080-exec-5] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:38.430 - Fran
+2022-06-15 12:41:39.507  INFO 11412 --- [http-nio-8080-exec-6] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:39.507 - Fran
+2022-06-15 12:41:40.679  INFO 11412 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:40.679 - Fran
+2022-06-15 12:41:42.249  INFO 11412 --- [http-nio-8080-exec-10] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:41:42.249 - Fran
+2022-06-15 12:45:19.862  INFO 11412 --- [http-nio-8080-exec-8] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:45:19.862 - Fran
+2022-06-15 12:45:19.931  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 12:45:19.931 - Fran
+2022-06-15 12:45:22.773  INFO 11412 --- [http-nio-8080-exec-2] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:45:22.773 - Fran
+2022-06-15 12:45:22.807  INFO 11412 --- [http-nio-8080-exec-4] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:45:22.807 - Fran
+2022-06-15 12:45:53.589  INFO 11412 --- [http-nio-8080-exec-5] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:45:53.589 - Fran
+2022-06-15 12:45:53.654  INFO 11412 --- [http-nio-8080-exec-6] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:45:53.654 - Fran
+2022-06-15 12:45:54.822  INFO 11412 --- [http-nio-8080-exec-3] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:45:54.822 - Fran
+2022-06-15 12:46:05.613  INFO 11412 --- [http-nio-8080-exec-7] c.c.crud.controller.OperadorController   : Save Operadores Error en el Nombre de Usuario - 12:46:05.613
+2022-06-15 12:46:05.665  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:46:05.665 - Fran
+2022-06-15 12:46:09.633  INFO 11412 --- [http-nio-8080-exec-1] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:46:09.633 - Fran
+2022-06-15 12:46:12.072 ERROR 11412 --- [http-nio-8080-exec-4] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-15 12:46:30.607  INFO 11412 --- [http-nio-8080-exec-5] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:46:30.606 - Fran
+2022-06-15 12:46:38.117  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:46:38.117 - Fran
+2022-06-15 12:46:39.588  INFO 11412 --- [http-nio-8080-exec-1] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:46:39.588 - Fran
+2022-06-15 12:46:41.377  INFO 11412 --- [http-nio-8080-exec-2] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:46:41.377 - Fran
+2022-06-15 12:46:42.700 ERROR 11412 --- [http-nio-8080-exec-4] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-15 12:49:26.047 ERROR 11412 --- [http-nio-8080-exec-10] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-15 12:50:05.363  INFO 11412 --- [http-nio-8080-exec-7] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:50:05.362 - Fran
+2022-06-15 12:50:05.363 ERROR 11412 --- [http-nio-8080-exec-8] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-15 12:50:05.376  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:50:05.376 - Fran
+2022-06-15 12:51:32.235 ERROR 11412 --- [http-nio-8080-exec-4] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-15 12:51:51.914  INFO 11412 --- [http-nio-8080-exec-5] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:51:51.914 - Fran
+2022-06-15 12:52:22.565  INFO 11412 --- [http-nio-8080-exec-6] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:52:22.565 - Fran
+2022-06-15 12:52:22.720  INFO 11412 --- [http-nio-8080-exec-3] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:52:22.720 - Fran
+2022-06-15 12:52:27.848  INFO 11412 --- [http-nio-8080-exec-10] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:52:27.848 - Fran
+2022-06-15 12:52:28.689  INFO 11412 --- [http-nio-8080-exec-7] c.c.crud.controller.OperadorController   : Delete Operadores por el Usuario - 12:52:28.689 - Fran
+2022-06-15 12:52:28.797  INFO 11412 --- [http-nio-8080-exec-9] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 12:52:28.797 - Fran
+2022-06-15 13:28:23.073  INFO 11412 --- [http-nio-8080-exec-1] c.c.c.controller.AnalisisTFController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 13:28:23.073
+2022-06-15 13:57:29.413 ERROR 11412 --- [http-nio-8080-exec-6] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)

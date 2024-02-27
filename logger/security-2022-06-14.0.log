@@ -1,0 +1,115 @@
+2022-06-14 09:38:07.637  INFO 1464 --- [main] com.carrier.crud.CrudApplication         : Starting CrudApplication on A0013000455 with PID 1464 (C:\Users\fgueva01\Documents\carriermovilnetBackend-v2\target\classes started by fgueva01 in C:\Users\fgueva01\Documents\carriermovilnetBackend-v2)
+2022-06-14 09:38:07.648  INFO 1464 --- [main] com.carrier.crud.CrudApplication         : No active profile set, falling back to default profiles: default
+2022-06-14 09:38:11.155  INFO 1464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-14 09:38:11.363  INFO 1464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 179ms. Found 12 JPA repository interfaces.
+2022-06-14 09:38:13.267  INFO 1464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 09:38:13.313  INFO 1464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 09:38:13.321  INFO 1464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 09:38:13.324  INFO 1464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@534243e4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 09:38:13.326  INFO 1464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 09:38:13.347  INFO 1464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-14 09:38:14.348  INFO 1464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-14 09:38:14.401  INFO 1464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-14 09:38:14.401  INFO 1464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-06-14 09:38:14.655  INFO 1464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-14 09:38:14.655  INFO 1464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6809 ms
+2022-06-14 09:38:15.411  INFO 1464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-14 09:38:15.903  INFO 1464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2022-06-14 09:38:16.721  INFO 1464 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-06-14 09:38:17.227  INFO 1464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-14 09:38:19.373  INFO 1464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-14 09:38:19.554  INFO 1464 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-14 09:38:23.568  INFO 1464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-14 09:38:23.577  INFO 1464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-14 09:38:25.994  INFO 1464 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@774c5e5c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cb8580, org.springframework.security.web.header.HeaderWriterFilter@3a8640f7, org.springframework.web.filter.CorsFilter@4cf01c41, org.springframework.security.web.authentication.logout.LogoutFilter@68f2363, com.carrier.crud.security.jwt.JwtTokenFilter@5ddd84d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aee6d14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@163df259, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57bac3f0, org.springframework.security.web.session.SessionManagementFilter@2168def, org.springframework.security.web.access.ExceptionTranslationFilter@2cacb445, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@578d472a]
+2022-06-14 09:38:26.092  INFO 1464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-14 09:38:26.509  INFO 1464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 09:38:26.511  INFO 1464 --- [main] com.carrier.crud.CrudApplication         : Started CrudApplication in 20.86 seconds (JVM running for 22.208)
+2022-06-14 09:38:54.853  INFO 1464 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-14 09:38:54.853  INFO 1464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-14 09:38:54.862  INFO 1464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-06-14 09:38:55.035  INFO 1464 --- [http-nio-8080-exec-1] c.c.c.controller.AnalisisTFController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 09:38:55.035
+2022-06-14 09:38:55.038  INFO 1464 --- [http-nio-8080-exec-4] c.c.crud.controller.FacturaController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 09:38:55.038
+2022-06-14 09:38:55.039  INFO 1464 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 09:38:55.039
+2022-06-14 09:38:55.041  INFO 1464 --- [http-nio-8080-exec-2] c.c.crud.controller.OperadorController   : Get Operadores de Debito Error en el Nombre de Usuario - 09:38:55.041
+2022-06-14 09:39:18.495 ERROR 1464 --- [http-nio-8080-exec-1] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:18.495 ERROR 1464 --- [http-nio-8080-exec-10] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:18.496  INFO 1464 --- [http-nio-8080-exec-10] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:39:18.496 - Fran
+2022-06-14 09:39:18.499  INFO 1464 --- [http-nio-8080-exec-1] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:39:18.499 - Fran
+2022-06-14 09:39:18.505 ERROR 1464 --- [http-nio-8080-exec-9] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:18.534 ERROR 1464 --- [http-nio-8080-exec-9] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-14 09:39:18.553 ERROR 1464 --- [http-nio-8080-exec-3] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:18.556 ERROR 1464 --- [http-nio-8080-exec-3] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-14 09:39:20.238 ERROR 1464 --- [http-nio-8080-exec-4] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:20.239  INFO 1464 --- [http-nio-8080-exec-4] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:39:20.239 - Fran
+2022-06-14 09:39:20.240 ERROR 1464 --- [http-nio-8080-exec-7] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:20.241 ERROR 1464 --- [http-nio-8080-exec-2] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:20.242  INFO 1464 --- [http-nio-8080-exec-2] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:39:20.242 - Fran
+2022-06-14 09:39:20.242 ERROR 1464 --- [http-nio-8080-exec-7] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-14 09:39:20.250 ERROR 1464 --- [http-nio-8080-exec-6] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:20.252 ERROR 1464 --- [http-nio-8080-exec-6] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-14 09:39:45.616 ERROR 1464 --- [http-nio-8080-exec-5] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:45.688 ERROR 1464 --- [http-nio-8080-exec-5] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-14 09:39:45.706 ERROR 1464 --- [http-nio-8080-exec-10] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:45.710  INFO 1464 --- [http-nio-8080-exec-10] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:39:45.710 - Fran
+2022-06-14 09:39:45.712 ERROR 1464 --- [http-nio-8080-exec-1] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:45.713  INFO 1464 --- [http-nio-8080-exec-1] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:39:45.713 - Fran
+2022-06-14 09:39:45.724 ERROR 1464 --- [http-nio-8080-exec-9] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:45.725 ERROR 1464 --- [http-nio-8080-exec-9] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-14 09:39:45.730 ERROR 1464 --- [http-nio-8080-exec-3] c.carrier.crud.security.jwt.JwtProvider  : Token expirado
+2022-06-14 09:39:45.732 ERROR 1464 --- [http-nio-8080-exec-3] c.c.crud.security.jwt.JwtEntryPoint      : Intento fallido en JwtEntryPoint (metodo commence)
+2022-06-14 09:40:01.182  INFO 1464 --- [http-nio-8080-exec-2] c.c.crud.controller.FacturaController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 09:40:01.182
+2022-06-14 09:40:01.541  INFO 1464 --- [http-nio-8080-exec-6] c.c.crud.controller.OperadorController   : Get Operadores de Debito Error en el Nombre de Usuario - 09:40:01.541
+2022-06-14 09:40:01.541  INFO 1464 --- [http-nio-8080-exec-8] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 09:40:01.541
+2022-06-14 09:40:01.541  INFO 1464 --- [http-nio-8080-exec-5] c.c.c.controller.AnalisisTFController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 09:40:01.541
+2022-06-14 09:40:04.419  INFO 1464 --- [http-nio-8080-exec-10] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:40:04.419 - Fran
+2022-06-14 09:40:05.093  INFO 1464 --- [http-nio-8080-exec-9] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:05.093 - Fran
+2022-06-14 09:40:05.094  INFO 1464 --- [http-nio-8080-exec-1] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:40:05.094 - Fran
+2022-06-14 09:40:05.147  INFO 1464 --- [http-nio-8080-exec-3] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:05.147 - Fran
+2022-06-14 09:40:05.880  INFO 1464 --- [http-nio-8080-exec-4] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:40:05.880 - Fran
+2022-06-14 09:40:06.639  INFO 1464 --- [http-nio-8080-exec-7] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:40:06.639 - Fran
+2022-06-14 09:40:06.644  INFO 1464 --- [http-nio-8080-exec-2] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:06.644 - Fran
+2022-06-14 09:40:06.660  INFO 1464 --- [http-nio-8080-exec-5] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:06.660 - Fran
+2022-06-14 09:40:11.123  INFO 1464 --- [http-nio-8080-exec-8] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:40:11.123 - Fran
+2022-06-14 09:40:12.239  INFO 1464 --- [http-nio-8080-exec-6] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:40:12.239 - Fran
+2022-06-14 09:40:12.242  INFO 1464 --- [http-nio-8080-exec-10] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:12.242 - Fran
+2022-06-14 09:40:12.255  INFO 1464 --- [http-nio-8080-exec-1] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:12.255 - Fran
+2022-06-14 09:40:14.250  INFO 1464 --- [http-nio-8080-exec-9] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:40:14.250 - Fran
+2022-06-14 09:40:15.656  INFO 1464 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:40:15.656 - Fran
+2022-06-14 09:40:15.656  INFO 1464 --- [http-nio-8080-exec-4] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:15.656 - Fran
+2022-06-14 09:40:15.672  INFO 1464 --- [http-nio-8080-exec-7] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:15.672 - Fran
+2022-06-14 09:40:20.652  INFO 1464 --- [http-nio-8080-exec-5] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:40:20.652 - Fran
+2022-06-14 09:40:23.491  INFO 1464 --- [http-nio-8080-exec-8] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:40:23.491 - Fran
+2022-06-14 09:40:23.492  INFO 1464 --- [http-nio-8080-exec-6] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:23.492 - Fran
+2022-06-14 09:40:23.502  INFO 1464 --- [http-nio-8080-exec-10] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:40:23.502 - Fran
+2022-06-14 09:43:55.660  INFO 1464 --- [http-nio-8080-exec-4] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:43:55.660 - Fran
+2022-06-14 09:43:55.661  INFO 1464 --- [http-nio-8080-exec-7] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:43:55.661 - Fran
+2022-06-14 09:43:55.683  INFO 1464 --- [http-nio-8080-exec-2] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:43:55.683 - Fran
+2022-06-14 09:43:55.702  INFO 1464 --- [http-nio-8080-exec-5] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:43:55.702 - Fran
+2022-06-14 09:45:37.427  INFO 1464 --- [http-nio-8080-exec-10] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:45:37.427 - Fran
+2022-06-14 09:47:30.477  INFO 1464 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:47:30.477 - Fran
+2022-06-14 09:47:30.476  INFO 1464 --- [http-nio-8080-exec-7] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:47:30.476 - Fran
+2022-06-14 09:47:30.479  INFO 1464 --- [http-nio-8080-exec-9] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:47:30.479 - Fran
+2022-06-14 09:47:30.550  INFO 1464 --- [http-nio-8080-exec-4] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:47:30.550 - Fran
+2022-06-14 09:47:37.220  INFO 1464 --- [http-nio-8080-exec-2] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 09:47:37.220 - Fran
+2022-06-14 09:47:37.235  INFO 1464 --- [http-nio-8080-exec-8] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:47:37.235 - Fran
+2022-06-14 09:47:37.236  INFO 1464 --- [http-nio-8080-exec-5] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 09:47:37.236 - Fran
+2022-06-14 09:47:37.245  INFO 1464 --- [http-nio-8080-exec-6] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:47:37.245 - Fran
+2022-06-14 09:48:30.626  INFO 1464 --- [http-nio-8080-exec-10] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:48:30.626 - Fran
+2022-06-14 09:48:46.273  INFO 1464 --- [http-nio-8080-exec-9] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 09:48:46.273 - Fran
+2022-06-14 10:00:13.568  INFO 1464 --- [http-nio-8080-exec-2] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 10:00:13.568 - Fran
+2022-06-14 10:00:13.568  INFO 1464 --- [http-nio-8080-exec-4] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 10:00:13.568 - Fran
+2022-06-14 10:00:13.579  INFO 1464 --- [http-nio-8080-exec-5] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 10:00:13.579 - Fran
+2022-06-14 10:00:13.594  INFO 1464 --- [http-nio-8080-exec-8] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 10:00:13.594 - Fran
+2022-06-14 10:12:42.287  INFO 1464 --- [http-nio-8080-exec-1] c.c.crud.controller.OperadorController   : Get Operadores por el Usuario - 10:12:42.287 - Fran
+2022-06-14 10:12:42.287  INFO 1464 --- [http-nio-8080-exec-3] c.c.crud.controller.ServicioController   : Get Servicio por el Usuario - 10:12:42.287 - Fran
+2022-06-14 10:12:42.292  INFO 1464 --- [http-nio-8080-exec-9] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 10:12:42.292 - Fran
+2022-06-14 10:12:42.307  INFO 1464 --- [http-nio-8080-exec-7] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 10:12:42.307 - Fran
+2022-06-14 10:13:42.904  INFO 1464 --- [http-nio-8080-exec-8] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 10:13:42.904 - Fran
+2022-06-14 10:15:15.317  INFO 1464 --- [http-nio-8080-exec-10] c.c.c.FacturaComercialSinValorController : Get Factura Sin Valor Comercial por el Usuario - 10:15:15.317 - Fran
+2022-06-14 12:06:44.101  WARN 1464 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m21s876ms460µs500ns).
+2022-06-14 13:10:07.247  WARN 1464 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m52s274ms774µs200ns).
+2022-06-14 13:32:01.134  INFO 1464 --- [http-nio-8080-exec-2] c.c.c.controller.AnalisisTFController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 13:32:01.134
+2022-06-14 13:32:01.134  INFO 1464 --- [http-nio-8080-exec-3] c.c.crud.controller.FacturaController    : Get Factura Sin Valor Comercial Error en el Nombre de Usuario - 13:32:01.134
+2022-06-14 13:32:01.135  INFO 1464 --- [http-nio-8080-exec-7] c.c.crud.controller.ServicioController   : Get Servicio de Debito Error en el Nombre de Usuario - 13:32:01.135
+2022-06-14 13:32:01.135  INFO 1464 --- [http-nio-8080-exec-9] c.c.crud.controller.OperadorController   : Get Operadores de Debito Error en el Nombre de Usuario - 13:32:01.135
