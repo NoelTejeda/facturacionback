@@ -32,7 +32,6 @@ public class FacturaComercialController {
     FacturaComercialService facturaComercialService;
 
     private ArrayList facturas;
-    // prueba
 
     static final Logger log = Logger.getLogger(FacturaComercialController.class.getName());
 
